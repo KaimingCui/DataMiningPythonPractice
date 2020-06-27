@@ -1,0 +1,25 @@
+Part1:
+
+
+1.Linear Kernel:
+The best parameters: C:0.50
+accuracy:0.917431
+The best parameters: C:0.50
+accuracy:0.917431
+The best parameters: C:0.50
+accuracy:0.889908
+Average 3-fold classification:
+accuracy(along with standard deviation):0.908257
+(+0.015890)
+
+
+Gaussian Kernel:Now using rbf kernel.
+The best parameters: C:25.00;gammma:1.00E-03
+accuracy:0.972477
+The best parameters: C:25.00;gammma:1.00E-03
+accuracy:0.935780
+The best parameters: C:25.00;gammma:1.00E-03
+accuracy:0.899083
+Average 3-fold classification:
+accuracy(along with standard deviation):0.935780
+(+0.036697)

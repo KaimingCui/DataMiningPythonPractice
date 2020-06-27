@@ -1,0 +1,115 @@
+indicate class:
+class 1: Iris-setosa
+class 1: Iris-versicolor
+class 1: Iris-virginica
+-----------------------------------------
+Answer of Q3 for full bayes classifier:
+-----------------------------------------
+Fold 3: fold 3 is tested, fold 1 and fold 2 are training data.
+The confusion matrix when fold 3 is tested:
+[[16.  0.  0.]
+ [ 0. 17.  0.]
+ [ 0.  1. 16.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [0.94 1.00 0.94 0.97]
+3: [1.00 0.94 1.00 0.97]
+avg: [0.98 0.98 0.98 0.98]
+
+
+-----------------------------------------
+Fold 2: fold 2 is tested, fold 1 and fold 3 are training data.
+The confusion matrix when fold 2 is tested:
+[[16.  0.  0.]
+ [ 0. 17.  1.]
+ [ 0.  1. 15.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [0.94 0.94 0.94 0.94]
+3: [0.94 0.94 0.94 0.94]
+avg: [0.96 0.96 0.96 0.96]
+
+
+-----------------------------------------
+Fold 1: fold 1 is tested, fold 2 and fold 3 are training data.
+The confusion matrix when fold 1 is tested:
+[[18.  0.  0.]
+ [ 0. 14.  0.]
+ [ 0.  0. 18.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [1.00 1.00 1.00 1.00]
+3: [1.00 1.00 1.00 1.00]
+avg: [1.00 1.00 1.00 1.00]
+
+
+-----------------------------------------
+Averaged value of evaluation over 3 folds:
+Class:accuracy|precision|recall|fscore
+Avg: [0.98 0.98 0.98 0.98]
+-----------------------------------------
+Averaged value of evaluation in each class:
+Class:accuracy|precision|recall|fscore
+Avg_c1: [1.00 1.00 1.00 1.00]
+Avg_c2: [0.96 0.98 0.96 0.97]
+Avg_c3: [0.98 0.96 0.98 0.97]
+-----------------------------------------
+
+
+Answer of Q3 for navie bayes classifier:
+-----------------------------------------
+Fold 3: fold 3 is tested, fold 1 and fold 2 are training data.
+The confusion matrix when fold 3 is tested:
+[[16.  0.  0.]
+ [ 0. 16.  1.]
+ [ 0.  2. 15.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [0.89 0.94 0.89 0.91]
+3: [0.94 0.88 0.94 0.91]
+avg: [0.94 0.94 0.94 0.94]
+
+
+-----------------------------------------
+Fold 2: fold 2 is tested, fold 1 and fold 3 are training data.
+The confusion matrix when fold 2 is tested:
+[[16.  0.  0.]
+ [ 0. 17.  2.]
+ [ 0.  1. 14.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [0.94 0.89 0.94 0.92]
+3: [0.88 0.93 0.88 0.90]
+avg: [0.94 0.94 0.94 0.94]
+
+
+-----------------------------------------
+Fold 1: fold 1 is tested, fold 2 and fold 3 are training data.
+The confusion matrix when fold 1 is tested:
+[[18.  0.  0.]
+ [ 0. 14.  0.]
+ [ 0.  0. 18.]]
+Classification Report:
+Class: accuracy|precision|recall|fscore
+1: [1.00 1.00 1.00 1.00]
+2: [1.00 1.00 1.00 1.00]
+3: [1.00 1.00 1.00 1.00]
+avg: [1.00 1.00 1.00 1.00]
+
+
+-----------------------------------------
+Averaged value of evaluation over 3 folds:
+Class:accuracy|precision|recall|fscore
+Avg: [0.96 0.96 0.96 0.96]
+-----------------------------------------
+Averaged value of evaluation in each class:
+Class:accuracy|precision|recall|fscore
+Avg_c1: [1.00 1.00 1.00 1.00]
+Avg_c2: [0.94 0.95 0.94 0.94]
+Avg_c3: [0.94 0.94 0.94 0.94]
+-----------------------------------------

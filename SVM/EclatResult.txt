@@ -1,0 +1,69 @@
+Part2:
+
+part a:
+with 20% support, there are 402 frequent itemsets.
+
+part b:
+Top ten itemsets:
+((6,), 272)
+((16,), 269)
+((200,), 267)
+((3,), 253)
+((14,), 248)
+((8,), 242)
+((7,), 239)
+((3, 200), 231)
+((8, 200), 218)
+((10,), 216)
+
+part c:
+The number of frequent item that has 100:75
+
+part d:
+The number of frequent item that has 200:94
+
+part e:
+Top 10 rules with head 100:
+output formation: rule_head|rule_tail|sup|confidence
+(100, (4, 10), 91, 96.80851063829788)
+(100, (4, 5, 16), 88, 96.7032967032967)
+(100, (4, 10, 14), 87, 96.66666666666667)
+(100, (4, 5, 14, 16), 86, 96.62921348314607)
+(100, (4, 5, 10), 85, 96.5909090909091)
+(100, (12, 4, 13), 118, 95.9349593495935)
+(100, (4, 16), 94, 95.91836734693877)
+(100, (12, 4, 5, 13), 116, 95.86776859504133)
+(100, (4, 14, 16), 92, 95.83333333333334)
+(100, (12, 4, 13, 14), 115, 95.83333333333334)
+
+part f:
+The number of rules with head 100 and confidence value more than 75% (greater or equal to 75%):77
+
+part g:
+Top 10 rules with head 200:
+output formation: rule_head|rule_tail|sup|confidence
+(200, (1, 9, 7, 8, 3), 101, 99.01960784313727)
+(200, (15, 9, 7), 116, 98.30508474576271)
+(200, (15, 9, 7, 8), 113, 98.26086956521739)
+(200, (1, 9, 8, 3), 108, 98.18181818181819)
+(200, (15, 9, 7, 3), 106, 98.14814814814815)
+(200, (15, 9, 7, 8, 3), 104, 98.11320754716981)
+(200, (1, 9, 7, 3), 103, 98.09523809523809)
+(200, (11, 8, 3), 86, 97.72727272727273)
+(200, (15, 9), 127, 97.6923076923077)
+(200, (15, 9, 8), 123, 97.61904761904762)
+
+part h:
+The number of rules with head 100 and confidence value more than 75% (greater or equal to 75%):111
+
+part i:
+Use linear kernel SVM classfication:
+The best parameters: C:0.10
+accuracy:1.000000
+The best parameters: C:0.10
+accuracy:1.000000
+The best parameters: C:0.10
+accuracy:1.000000
+Average 3-fold classification:
+accuracy(along with standard deviation):1.000000
+(+0.000000)
